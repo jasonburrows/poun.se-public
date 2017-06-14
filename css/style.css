@@ -2,19 +2,15 @@
 body {
   background: rgba(255,157,38,1);
   font-family: source Sans;
-  background-size: cover;
+  /*background-size: cover;
   background-repeat: no-repeat;
   height: 60vh;
-  /*background-image: url("../img/home-background-5.jpg");*/
-  background-position-x: -390px;
+  background-image: url("../img/home-background-5.jpg");
+  background-position-x: -390px;*/
 }
 
 
-@media screen and (min-width: 736px) {
-  body {
-  background-position-x: 0;
-  }
-}
+
 
 form {
   display: inline-block;
