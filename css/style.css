@@ -1,16 +1,24 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+
+html, body {
+    width:100%;
+    height: 100%;
+    margin: 0;
+}
+
 body {
-  background: rgba(255,157,38,1);
+    background: linear-gradient(#F3DA36, #D4741E);
+    height: 100%;
+    width: 100%;
   font-family: source Sans;
-  /*background-size: cover;
-  background-repeat: no-repeat;
-  height: 60vh;
-  background-image: url("../img/home-background-5.jpg");
-  background-position-x: -390px;*/
+
 }
 
 
-
+.logo {
+  width:100%;
+}
 
 form {
   display: inline-block;
@@ -21,9 +29,7 @@ form {
 }
 
 .marketing-page {
-  width:100%;
-  min-width:300px;
-  max-width: 1000px;
+
   padding: 1% 0 0;
   margin: auto;
   color:#fff;
