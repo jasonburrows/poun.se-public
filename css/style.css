@@ -5,7 +5,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   height: 60vh;
-  background-image: url("../img/home-background-5.jpg");
+  /*background-image: url("../img/home-background-5.jpg");*/
   background-position-x: -390px;
 }
 
