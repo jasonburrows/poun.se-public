@@ -64,8 +64,7 @@ form {
 }
 
 
-.C1-2col-body {  width: 100%; 
-  overflow: hidden; margin:auto; padding: 5px;}
+.C1-2col-body {  width: 100%; overflow: hidden; margin:auto; padding: 5px;}
 .C1-col-left {float:none;}
 .C1-col-right {margin-left: 5px;}
 .campaign-bullet-list {font-size:1.2 rem; font-weight:300; text-align: center;}
