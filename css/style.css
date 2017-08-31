@@ -63,15 +63,6 @@ form {
   font-weight: 300;
 }
 
-
-.C1-2col-body {  width: 100%; overflow: hidden; margin:auto; padding: 5px;}
-.C1-col-left {float:none;}
-.C1-col-right {margin-left: 5px;}
-.campaign-bullet-list {font-size:1.2 rem; font-weight:300; text-align: center;}
-.marketing-logo {width:100px;}
-.marketing-leftimage {width:240px;}
-.marketing-headline {font-size: 1.4rem; padding: 1rem .5rem 1rem;}
-
 @media screen and (min-width: 500px) {
 .C1-2col-body {width: 100%; overflow: hidden; margin:auto; max-width: 800px; padding: 5px;}
     .C1-col-left {float:left;}
@@ -81,6 +72,16 @@ form {
     .marketing-leftimage {width:340px;}
     .marketing-headline {font-size: 2.5rem; padding: 1rem .5rem 2rem; font-weight:100;}
 }
+
+
+.C1-2col-body {  width: 100%; overflow: hidden; margin:auto; padding: 5px;}
+.C1-col-left {float:none;}
+.C1-col-right {margin-left: 5px;}
+.campaign-bullet-list {font-size:1.2 rem; font-weight:300; text-align: center;}
+.marketing-logo {width:100px;}
+.marketing-leftimage {width:240px;}
+.marketing-headline {font-size: 1.4rem; padding: 1rem .5rem 1rem;}
+
 
 .marketing-button {background-color:#9CCE2C}
 .marketing-fineprint {font-size: .8rem;}
