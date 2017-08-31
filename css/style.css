@@ -72,7 +72,7 @@ form {
 .marketing-leftimage {width:240px;}
 .marketing-headline {font-size: 1.4rem; padding: 1rem .5rem 1rem;}
 
-@media screen and (min-width: 500px) {
+@media only screen and (min-width: 500px) {
 .C1-2col-body {width: 100%; overflow: hidden; margin:auto; max-width: 800px; padding: 5px;}
     .C1-col-left {float:left;}
     .C1-col-right {margin-left: 350px;}
