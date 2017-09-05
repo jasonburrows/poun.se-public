@@ -72,15 +72,17 @@ li::before {content: ""; color: #2196F3}
 .marketing-logo {width:100px;}
 .marketing-leftimage {width:240px;}
 .marketing-headline {font-size: 1.4rem; padding: 1rem .5rem 1rem;}
+.video {height:100% !important; width: 100% !important;}
 
 @media only screen and (min-width: 500px) {
-    .C1-2col-body {width: 100%; overflow: hidden; margin:auto; max-width: 940px; padding: 5px;}
+    .C1-2col-body {width: 100%; overflow: hidden; margin:auto; max-width: 640px; padding: 5px;}
     .C1-col-left {float:left;}
     .C1-col-right {}
     .campaign-bullet-list {font-size:1.4rem; font-weight:300; text-align: left;}
     .marketing-logo {width:294px;}
     .marketing-leftimage {width:340px;}
     .marketing-headline {font-size: 2.5rem; padding: 1rem .5rem 2rem; font-weight:100;}
+    .video {height: 413px; width: 640px;}
 }
 
 .marketing-button {background-color:#9CCE2C}
