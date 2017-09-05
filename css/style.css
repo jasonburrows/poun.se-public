@@ -12,9 +12,12 @@ body {
     height: 100%;
     width: 100%;
   font-family: source Sans;
-
 }
 
+.space {
+  background: #0078ad url("../img/space-bg.jpg") no-repeat;
+  background-size: 100%;
+}
 
 .logo {
   width:100%;
@@ -62,6 +65,7 @@ form {
   font-weight: 300;
 }
 
+.white {color:#ffffff;}
 
 li::before {content: ""; color: #2196F3}
 
@@ -80,10 +84,12 @@ li::before {content: ""; color: #2196F3}
     .C1-col-right {}
     .campaign-bullet-list {font-size:1.4rem; font-weight:300; text-align: left;}
     .marketing-logo {width:294px;}
+    .marketing-space-logo  {width:158px;}
     .marketing-leftimage {width:340px;}
     .marketing-headline {font-size: 2.5rem; padding: 1rem .5rem 2rem; font-weight:100;}
     .video {height: 413px; width: 640px;}
-}
+    .space-green-headline {color:#9CCE2C; font-size: 1rem;}
+  }
 
 .marketing-button {background-color:#9CCE2C}
 .marketing-fineprint {font-size: .8rem;}
