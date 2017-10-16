@@ -1,0 +1,95 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+
+html, body {
+    width:100%;
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-color: ##fff;
+    height: 100%;
+    width: 100%;
+  font-family: source Sans;
+}
+
+.space {
+  background: #0078ad url("../img/space-bg.jpg") no-repeat;
+  background-size: 100%;
+}
+
+.logo {
+  width:100%;
+}
+
+form {
+  display: inline-block;
+}
+
+.marketing-center {
+  margin: auto;
+}
+
+.marketing-page {
+
+  padding: 1% 0 0;
+  margin: auto;
+  color:#000;
+  font-weight: 100;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.marketing-login-button{
+    border-style: none;
+    font-weight: 200;
+    font-size: 1.1rem;
+    color: #fff;;
+    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.3);
+    padding: 1rem 1.5rem;
+    margin: 30px 5px;
+    border-radius: 3px;
+}
+.background-green {
+    background-color: #9CCE2C;
+}
+.background-blue {
+    background-color: #2196F3;
+}
+.marketing-headline {
+  font-weight: 300;
+}
+.marketing-bullets {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.white {color:#ffffff;}
+
+li::before {content: ""; color: #2196F3}
+
+.C1-2col-body {  width: 100%; overflow: hidden; margin:auto; padding: 5px;}
+.C1-col-left {float:none;}
+.C1-col-right {}
+.campaign-bullet-list {font-size:1.2 rem; font-weight:300; text-align: center;}
+.marketing-logo {width:100px;}
+.marketing-leftimage {width:240px;}
+.marketing-headline {font-size: 1.4rem; padding: 1rem .5rem 1rem;}
+.video {height:100% !important; width: 100% !important;}
+
+@media only screen and (min-width: 500px) {
+    .C1-2col-body {width: 100%; overflow: hidden; margin:auto; max-width: 640px; padding: 5px;}
+    .C1-col-left {float:left;}
+    .C1-col-right {}
+    .campaign-bullet-list {font-size:1.4rem; font-weight:300; text-align: left;}
+    .marketing-logo {width:294px;}
+    .marketing-space-logo  {width:158px;}
+    .marketing-leftimage {width:340px;}
+    .marketing-headline {font-size: 2.5rem; padding: 1rem .5rem 2rem; font-weight:100;}
+    .video {height: 413px; width: 640px;}
+    .space-green-headline {color:#9CCE2C; font-size: 1rem;}
+  }
+
+.marketing-button {background-color:#9CCE2C}
+.marketing-fineprint {font-size: .8rem;}
