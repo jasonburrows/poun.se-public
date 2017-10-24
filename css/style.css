@@ -94,11 +94,11 @@ p {
     padding: 9px 15px;
 }
 @media(min-width:768px) {
-    .home_text h1{font-size:50px;}
+    .home_text h1{font-size:50px; font-family: 'Source sans', sans-serif;}
     .logo-small {display:none;}
     .logo-big {display:auto;}
-    .home_text p{font-size:25px;}
-    .header .section_overlay {background-color: rgba(255, 152, 0, .7);}
+    .home_text p{font-size:25px;font-family: 'Source sans', sans-serif !important;}
+    .header .section_overlay {background-color: rgba(255, 152, 0, .2);}
     .navbar-default {
         background-color: transparent;
     }
@@ -203,6 +203,10 @@ p {
     margin-top: 40px;
     margin-bottom: 50px
 }
+
+.bg-color-blue {background:#2196f3 !important; border-color:#2196f3 !important;}
+.bg-color-gray {background:#666 !important; border-color:#666 !important;}
+
 .home-btn,
 .home-btn:focus,
 .home-btn:active,
@@ -235,7 +239,7 @@ tuor:active,
 tuor:visited {
     color: #fff;
     margin-left: 20px;
-    text-transform: uppercase;
+    text-transform: none;
     font-size: 19px;
     font-weight: 400;
     background: transparent;
